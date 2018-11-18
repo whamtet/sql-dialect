@@ -6,7 +6,7 @@
   (reduce (fn [s [full replacement]]
             (swap! columns conj replacement)
             (.replace s full replacement))
-          s (re-seq #"(w+)\*" s)))
+          s (re-seq #"(\w+)\*" s)))
 
 (defn create-indices! []
   ;; TODO
