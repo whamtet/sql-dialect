@@ -1,6 +1,6 @@
 # sql-dialect
 
-An experimental sql dialect to tract indices
+An experimental sql dialect to track indices
 
 ## Usage
 
